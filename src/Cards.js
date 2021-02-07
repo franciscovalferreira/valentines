@@ -10,6 +10,11 @@ import image1 from './card-1.png';
 
 
 class Cards extends React.Component {
+
+  constructor(props){
+    super(props);
+  }
+
   render() {
     return <Container>
     <Row>
@@ -31,7 +36,7 @@ class Cards extends React.Component {
      <Col style={{
         marginBottom:"25px"
       }}>
-        <div className="Card-body">
+        <div className="Card-body" onClick={this.props.handler}>
           <img src={image1} className="Card-img" alt="logo" />
           <p className="Card-title">Opção 1</p>
         </div>
@@ -40,7 +45,7 @@ class Cards extends React.Component {
       <Col style={{
         marginBottom:"25px"
       }}>
-        <div className="Card-body">
+        <div className="Card-body" onClick={this.props.handler}>
           <img src={image1} className="Card-img" alt="logo" />
           <p className="Card-title">Opção 2</p>
         </div>
@@ -48,7 +53,7 @@ class Cards extends React.Component {
       <Col style={{
         marginBottom:"25px"
       }}>
-        <div className="Card-body">
+        <div className="Card-body" onClick={this.props.handler}>
           <img src={image1} className="Card-img" alt="logo" />
           <p className="Card-title">Opção 3</p>
         </div>

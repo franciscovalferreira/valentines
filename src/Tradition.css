@@ -20,17 +20,28 @@
 
 .Tradition-source{
     font-weight: 600;
-    color: #CD7A95;
+    color: #9e2d52;
     font-size: 1rem;
 }
 
 .Tradition-button{
     border-radius: 100rem;
-    margin: 3rem 0rem;
-    border: 2px solid #B44367;
-    background-color: #B44367;
+    margin: 3rem 1rem;
+    border: 3px solid #1e1cb9;
+    background-color: #1e1cb9;
     font-size: 1.2rem;
     padding: 1rem 2rem;
     font-weight: 600;
     color: white;
+}
+
+.Tradition-repeat-button{
+    border-radius: 100rem;
+    margin: 3rem 1rem;
+    border: 3px solid #9e2d52;
+    background-color: transparent;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    color: #9e2d52;
 }

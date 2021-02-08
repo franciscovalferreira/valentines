@@ -20,7 +20,8 @@ class App extends React.Component {
     super(props);
     this.homeHandler = this.showCards.bind(this);
     this.cardHandler = this.showTradition.bind(this);
-    this.state = { page: <Home handler={this.homeHandler} />, show:true };
+    this.restartHandler = this.restart.bind(this);
+    this.state = { page: <Home handler={this.homeHandler} startButtonCopy="Vamos a isso!"/>};
   }
 
   //Handler to update parent' state
@@ -37,7 +38,6 @@ class App extends React.Component {
     }.bind(this), 350)
   }
   showTradition() {    
-
     this.setState({
       show:false,
       //page: <Cards handler={this.cardHandler} />,
@@ -46,10 +46,23 @@ class App extends React.Component {
       var item = traditions[Math.floor(Math.random() * traditions.length)];
       this.setState({
         show:true,
-        page: <Tradition tradition={item.tradition} source={item.source}/>,
+        page: <Tradition restartHandler={this.restartHandler} tradition={item.tradition} source={item.source}/>,
       }) //After 1 second, set render to true
     }.bind(this), 350)
   }
+  restart() {
+    this.setState({
+      show:false,
+      //page: <Cards handler={this.cardHandler} />,
+    });
+    setTimeout(function() { 
+      this.setState({
+        show:true,
+        page: <Home handler={this.homeHandler} startButtonCopy="Vamos de novo!"/>,
+      }) //After 1 second, set render to true
+    }.bind(this), 350)
+  }
+
 
   render() {
     return (

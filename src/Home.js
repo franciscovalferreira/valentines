@@ -7,6 +7,7 @@ class Home extends React.Component {
   
   constructor(props){
     super(props);
+    this.startButtonCopy = props.startButtonCopy;
   }
 
   render() {
@@ -14,7 +15,7 @@ class Home extends React.Component {
         <img src={logo} className="App-logo" alt="logo" />
         <h3 className="App-title">O Dia dos Namorados é no Santo António!</h3>
         <p className="App-text">Dicas infalíveis de Santo António para encontrares o amor da tua vida</p> 
-        <button className="App-secondary-button" onClick={this.props.handler}>Vamos a isso!</button>
+        <button className="App-secondary-button" onClick={this.props.handler}>{this.startButtonCopy}</button>
     </div>
     ;
   }

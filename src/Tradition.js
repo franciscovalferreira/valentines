@@ -12,6 +12,7 @@ class Tradition extends React.Component {
         super(props);
         this.tradition = props.tradition;
         this.source = props.source;
+        this.restartHandler = props.restartHandler;
     }
 
     render() {
@@ -22,7 +23,9 @@ class Tradition extends React.Component {
                     <img src={quote} className="Tradition-icon" alt="Quote" />
                     <p className="Tradition-quote">{this.tradition}</p> 
                     <p className="Tradition-source">{this.source}</p> 
-                    <button className="Tradition-button"><i className="fa fa-copy"></i>  &nbsp;Copiar</button>
+                
+                    <button className="Tradition-button" onClick={()=>{window.location.href = "https://www.facebook.com/sharer/sharer.php?u=https://www.o-dia-dos-namorados-e-no-santo-antonio.pt";}}><i className="fa fa-facebook"></i>  &nbsp;Partilhar no Facebook</button>
+                    <button className="Tradition-repeat-button" onClick={this.restartHandler}><i className="fa fa-refresh"></i>  &nbsp;Voltar ao ínicio</button>
                     </Col>
                 </Row>
             </Container>

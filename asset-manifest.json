@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/valentines/static/css/main.d91eafdc.chunk.css",
+    "main.js": "/valentines/static/js/main.60be89d6.chunk.js",
+    "main.js.map": "/valentines/static/js/main.60be89d6.chunk.js.map",
+    "runtime-main.js": "/valentines/static/js/runtime-main.2421bfff.js",
+    "runtime-main.js.map": "/valentines/static/js/runtime-main.2421bfff.js.map",
+    "static/css/2.59a6a87c.chunk.css": "/valentines/static/css/2.59a6a87c.chunk.css",
+    "static/js/2.adef4cdd.chunk.js": "/valentines/static/js/2.adef4cdd.chunk.js",
+    "static/js/2.adef4cdd.chunk.js.map": "/valentines/static/js/2.adef4cdd.chunk.js.map",
+    "static/js/3.ca590f93.chunk.js": "/valentines/static/js/3.ca590f93.chunk.js",
+    "static/js/3.ca590f93.chunk.js.map": "/valentines/static/js/3.ca590f93.chunk.js.map",
+    "index.html": "/valentines/index.html",
+    "static/css/2.59a6a87c.chunk.css.map": "/valentines/static/css/2.59a6a87c.chunk.css.map",
+    "static/css/main.d91eafdc.chunk.css.map": "/valentines/static/css/main.d91eafdc.chunk.css.map",
+    "static/js/2.adef4cdd.chunk.js.LICENSE.txt": "/valentines/static/js/2.adef4cdd.chunk.js.LICENSE.txt",
+    "static/media/bg-web.5311ab5a.jpg": "/valentines/static/media/bg-web.5311ab5a.jpg",
+    "static/media/card-1.76b49de4.png": "/valentines/static/media/card-1.76b49de4.png",
+    "static/media/font-awesome.min.css": "/valentines/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2421bfff.js",
+    "static/css/2.59a6a87c.chunk.css",
+    "static/js/2.adef4cdd.chunk.js",
+    "static/css/main.d91eafdc.chunk.css",
+    "static/js/main.60be89d6.chunk.js"
+  ]
+}

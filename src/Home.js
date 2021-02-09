@@ -2,6 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import logo from './logo.png';
 import './Home.css';
+import Alert from 'react-bootstrap/Alert';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 class Home extends React.Component {
   
@@ -12,10 +16,19 @@ class Home extends React.Component {
 
   render() {
     return <div className="Home-container">
-        <img src={logo} className="App-logo" alt="logo" />
+        <a href="http://santoantonio.museudelisboa.pt/">
+          <img src={logo} className="App-logo" alt="logo"/>
+        </a>
         <h3 className="App-title">O Dia dos Namorados é no Santo António!</h3>
-        <p className="App-text">Dicas infalíveis de Santo António para encontrares o amor da tua vida</p> 
+        <p className="App-text">Dicas infalíveis para encontrares o amor da tua vida</p> 
         <button className="App-secondary-button" onClick={this.props.handler}>{this.startButtonCopy}</button>
+        <Container>
+          <Row>
+            <Col>
+              <div className="Home-alert"> <i className="fa fa-info-circle"></i> &nbsp;Quero saber mais sobre as tradições de Santo António!</div>
+            </Col>
+          </Row>
+        </Container>
     </div>
     ;
   }

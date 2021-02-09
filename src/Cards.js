@@ -7,6 +7,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import image1 from './card-1.png';
+import image2 from './card-2.png';
+import image3 from './card-3.png';
 
 
 class Cards extends React.Component {
@@ -38,7 +40,6 @@ class Cards extends React.Component {
       }}>
         <div className="Card-body" onClick={this.props.handler}>
           <img src={image1} className="Card-img" alt="logo" />
-          <p className="Card-title">Opção 1</p>
         </div>
       </Col>
       <br></br>
@@ -46,16 +47,14 @@ class Cards extends React.Component {
         marginBottom:"25px"
       }}>
         <div className="Card-body" onClick={this.props.handler}>
-          <img src={image1} className="Card-img" alt="logo" />
-          <p className="Card-title">Opção 2</p>
+          <img src={image3} className="Card-img" alt="logo" />
         </div>
       </Col>
       <Col style={{
         marginBottom:"25px"
       }}>
         <div className="Card-body" onClick={this.props.handler}>
-          <img src={image1} className="Card-img" alt="logo" />
-          <p className="Card-title">Opção 3</p>
+          <img src={image2} className="Card-img" alt="logo" />
         </div>
       </Col>
     </Row>

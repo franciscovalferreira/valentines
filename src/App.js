@@ -10,7 +10,7 @@ import { CSSTransition, TransitionGroup } from "react-transition-group";
 import traditions from "./traditionsDB.js";
 
 const Fade = ({children, ...props}) => (
-  <CSSTransition {...props} timeout={1000} classNames="fade">
+  <CSSTransition {...props} timeout={2000} classNames="fade">
     {children}
   </CSSTransition>
 );

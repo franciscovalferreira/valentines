@@ -21,11 +21,14 @@ class Home extends React.Component {
         </a>
         <h3 className="App-title">O Dia dos Namorados é no Santo António!</h3>
         <p className="App-text">Dicas infalíveis para encontrares o amor da tua vida</p> 
-        <button className="App-secondary-button" onClick={this.props.handler}>{this.startButtonCopy}</button>
+        <button className="App-secondary-button" onClick={this.props.handler}><i class="fa fa-bolt"></i> &nbsp;{this.startButtonCopy}</button>
         <Container>
           <Row>
             <Col>
-              <div className="Home-alert"> <i className="fa fa-info-circle"></i> &nbsp;Quero saber mais sobre as tradições de Santo António!</div>
+              <div className="footer fixed-bottom Home-alert"> <i className="fa fa-info-circle"></i> &nbsp;Quer saber mais sobre as sorte e simpatias a Santo António? Veja <span style={{
+                fontWeight:"bold",
+                textDecoration:"underline"
+              }}>aqui</span></div>
             </Col>
           </Row>
         </Container>

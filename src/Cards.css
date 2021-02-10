@@ -2,7 +2,6 @@
     background-color: white;
     border-radius: 10px;
     height: 100%;
-    max-height: 500px;
     box-shadow: 0px 15px 20px rgba(150, 50, 85, 0.1);
     transition: transform .3s ease-out;
 }
@@ -11,6 +10,19 @@
     color: #BE5A78;
     font-weight: 800;
     font-size: 1.5rem;
+}
+
+/******** MOBILE ********/
+
+@media only screen and (max-width: 768px) {
+  .App-title{
+    font-size: 2.1rem;
+  }
+  .App-text{
+    font-size: 1.15rem !important;
+    font-weight: 500;
+    margin-bottom: 2.5rem;
+  }
 }
 
 .Card-img{

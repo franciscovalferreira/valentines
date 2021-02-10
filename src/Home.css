@@ -7,9 +7,8 @@
     border-color:rgba(255, 255, 255, 0.35) !important;
     margin-top: 2rem;
     cursor: pointer;
-    padding: 10px 30px;
-    border-radius: 5px;
     font-weight: 500;
+    padding: 1.25rem 1.5rem;
     display: inline-block;
     -webkit-animation: modalFadeOut 0.5s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: modalFadeOut 0.5s; /* Firefox < 16 */
@@ -18,231 +17,243 @@
             animation: modalFadeOut 0.5s;
 }
 
+/******** MOBILE ********/
+
+@media only screen and (max-width: 768px) {
+    .Home-alert{
+      font-size: 0.85rem;
+    }
+  }
+
 .Home-alert:hover{
     background-color: #C71C4F !important;
     border-color:#C71C4F !important;
-    color: white;
     margin-top: 2rem;
     cursor: pointer;
-    padding: 10px 30px;
-    border-radius: 5px;
     font-weight: 500;
-    display: inline-block;
-    -webkit-animation: modalFadeIn 0.5s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: modalFadeIn 0.5s; /* Firefox < 16 */
-        -ms-animation: modalFadeIn 0.5s; /* Internet Explorer */
-         -o-animation: modalFadeIn 0.5s; /* Opera < 12.1 */
-            animation: modalFadeIn 0.5s;
-    
+    padding: 1.25rem 1.5rem;
+    -webkit-animation: bannerFadeIn 0.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: bannerFadeIn 0.5s; /* Firefox < 16 */
+        -ms-animation: bannerFadeIn 0.5s; /* Internet Explorer */
+         -o-animation: bannerFadeIn 0.5s; /* Opera < 12.1 */
+            animation: bannerFadeIn 0.5s;
 }
 
-
-
-@keyframes modalFadeIn {
-    from { background-color: rgba(255, 255, 255, 0.15) !important;
+@keyframes bannerFadeIn {
+    from { 
+        background-color: rgba(255, 255, 255, 0.15) !important;
         border-color:rgba(255, 255, 255, 0.35) !important;
         margin-top: 2rem;
         cursor: pointer;
-        padding: 10px 30px;
-        border-radius: 5px;
         font-weight: 500;
-        display: inline-block; }
-    to   { background-color: #C71C4F !important;
+        padding: 1.25rem 1.5rem;
+        display: inline-block;
+     }
+    to   { 
+        background-color: #C71C4F !important;
         border-color:#C71C4F !important;
-        color: white;
         margin-top: 2rem;
         cursor: pointer;
-        padding: 10px 30px;
-        border-radius: 5px;
         font-weight: 500;
-        display: inline-block; }
+        padding: 1.25rem 1.5rem;
+        display: inline-block;
+    }
   }
   
   /* Firefox < 16 */
-  @-moz-keyframes modalFadeIn {
-    from { background-color: rgba(255, 255, 255, 0.15) !important;
+  @-moz-keyframes bannerFadeIn {
+    from { 
+        background-color: rgba(255, 255, 255, 0.15) !important;
         border-color:rgba(255, 255, 255, 0.35) !important;
         margin-top: 2rem;
         cursor: pointer;
-        padding: 10px 30px;
-        border-radius: 5px;
         font-weight: 500;
-        display: inline-block; }
-    to   { background-color: #C71C4F !important;
+        padding: 1.25rem 1.5rem;
+        display: inline-block;
+     }
+    to   { 
+        background-color: #C71C4F !important;
         border-color:#C71C4F !important;
-        color: white;
         margin-top: 2rem;
         cursor: pointer;
-        padding: 10px 30px;
-        border-radius: 5px;
         font-weight: 500;
-        display: inline-block; }
+        padding: 1.25rem 1.5rem;
+        display: inline-block;
+    }
   }
   
   /* Safari, Chrome and Opera > 12.1 */
-  @-webkit-keyframes modalFadeIn {
-    from { background-color: rgba(255, 255, 255, 0.15) !important;
+  @-webkit-keyframes bannerFadeIn {
+    from { 
+        background-color: rgba(255, 255, 255, 0.15) !important;
         border-color:rgba(255, 255, 255, 0.35) !important;
         margin-top: 2rem;
         cursor: pointer;
-        padding: 10px 30px;
-        border-radius: 5px;
         font-weight: 500;
-        display: inline-block; }
-    to   { background-color: #C71C4F !important;
+        padding: 1.25rem 1.5rem;
+        display: inline-block;
+     }
+    to   { 
+        background-color: #C71C4F !important;
         border-color:#C71C4F !important;
-        color: white;
         margin-top: 2rem;
         cursor: pointer;
-        padding: 10px 30px;
-        border-radius: 5px;
         font-weight: 500;
-        display: inline-block; }
+        padding: 1.25rem 1.5rem;
+        display: inline-block;
+    }
   }
   
   /* Internet Explorer */
-  @-ms-keyframes modalFadeIn {
-    from { background-color: rgba(255, 255, 255, 0.15) !important;
+  @-ms-keyframes bannerFadeIn {
+    from { 
+        background-color: rgba(255, 255, 255, 0.15) !important;
         border-color:rgba(255, 255, 255, 0.35) !important;
         margin-top: 2rem;
         cursor: pointer;
-        padding: 10px 30px;
-        border-radius: 5px;
         font-weight: 500;
-        display: inline-block; }
-    to   { background-color: #C71C4F !important;
+        padding: 1.25rem 1.5rem;
+        display: inline-block;
+     }
+    to   { 
+        background-color: #C71C4F !important;
         border-color:#C71C4F !important;
-        color: white;
         margin-top: 2rem;
         cursor: pointer;
-        padding: 10px 30px;
-        border-radius: 5px;
         font-weight: 500;
-        display: inline-block; }
+        padding: 1.25rem 1.5rem;
+        display: inline-block;
+    }
   }
   
   /* Opera < 12.1 */
-  @-o-keyframes modalFadeIn {
-    from { background-color: rgba(255, 255, 255, 0.15) !important;
+  @-o-keyframes bannerFadeIn {
+    from { 
+        background-color: rgba(255, 255, 255, 0.15) !important;
         border-color:rgba(255, 255, 255, 0.35) !important;
         margin-top: 2rem;
         cursor: pointer;
-        padding: 10px 30px;
-        border-radius: 5px;
         font-weight: 500;
-        display: inline-block; }
-    to   { background-color: #C71C4F !important;
+        padding: 1.25rem 1.5rem;
+        display: inline-block;
+     }
+    to   { 
+        background-color: #C71C4F !important;
         border-color:#C71C4F !important;
-        color: white;
         margin-top: 2rem;
         cursor: pointer;
-        padding: 10px 30px;
-        border-radius: 5px;
         font-weight: 500;
-        display: inline-block; }
+        padding: 1.25rem 1.5rem;
+        display: inline-block;
+    }
   }
   
   /************ FADE OUT ************/
   @keyframes modalFadeOut {
-    to { background-color: rgba(255, 255, 255, 0.15) !important;
+    to { 
+        background-color: rgba(255, 255, 255, 0.15) !important;
         border-color:rgba(255, 255, 255, 0.35) !important;
         margin-top: 2rem;
         cursor: pointer;
-        padding: 10px 30px;
-        border-radius: 5px;
         font-weight: 500;
-        display: inline-block; }
-    from   { background-color: #C71C4F !important;
+        padding: 1.25rem 1.5rem;
+        display: inline-block;
+     }
+    from   { 
+        background-color: #C71C4F !important;
         border-color:#C71C4F !important;
-        color: white;
         margin-top: 2rem;
         cursor: pointer;
-        padding: 10px 30px;
-        border-radius: 5px;
         font-weight: 500;
-        display: inline-block; }
+        padding: 1.25rem 1.5rem;
+        display: inline-block;
+    }
   }
   
   /* Firefox < 16 */
   @-moz-keyframes modalFadeOut {
-    to { background-color: rgba(255, 255, 255, 0.15) !important;
+    to { 
+        background-color: rgba(255, 255, 255, 0.15) !important;
         border-color:rgba(255, 255, 255, 0.35) !important;
         margin-top: 2rem;
         cursor: pointer;
-        padding: 10px 30px;
-        border-radius: 5px;
         font-weight: 500;
-        display: inline-block; }
-    from   { background-color: #C71C4F !important;
+        padding: 1.25rem 1.5rem;
+        display: inline-block;
+     }
+    from   { 
+        background-color: #C71C4F !important;
         border-color:#C71C4F !important;
-        color: white;
         margin-top: 2rem;
         cursor: pointer;
-        padding: 10px 30px;
-        border-radius: 5px;
         font-weight: 500;
-        display: inline-block; }
+        padding: 1.25rem 1.5rem;
+        display: inline-block;
+    }
   }
   
   /* Safari, Chrome and Opera > 12.1 */
   @-webkit-keyframes modalFadeOut {
-    to { background-color: rgba(255, 255, 255, 0.15) !important;
+    to { 
+        background-color: rgba(255, 255, 255, 0.15) !important;
         border-color:rgba(255, 255, 255, 0.35) !important;
         margin-top: 2rem;
         cursor: pointer;
-        padding: 10px 30px;
-        border-radius: 5px;
         font-weight: 500;
-        display: inline-block; }
-    from   { background-color: #C71C4F !important;
+        padding: 1.25rem 1.5rem;
+        display: inline-block;
+     }
+    from   { 
+        background-color: #C71C4F !important;
         border-color:#C71C4F !important;
-        color: white;
         margin-top: 2rem;
         cursor: pointer;
-        padding: 10px 30px;
-        border-radius: 5px;
         font-weight: 500;
-        display: inline-block; }
+        padding: 1.25rem 1.5rem;
+        display: inline-block;
+    }
   }
   
   /* Internet Explorer */
   @-ms-keyframes modalFadeOut {
-    to { background-color: rgba(255, 255, 255, 0.15) !important;
+    to { 
+        background-color: rgba(255, 255, 255, 0.15) !important;
         border-color:rgba(255, 255, 255, 0.35) !important;
         margin-top: 2rem;
         cursor: pointer;
-        padding: 10px 30px;
-        border-radius: 5px;
         font-weight: 500;
-        display: inline-block; }
-    from   { background-color: #C71C4F !important;
+        padding: 1.25rem 1.5rem;
+        display: inline-block;
+     }
+    from   { 
+        background-color: #C71C4F !important;
         border-color:#C71C4F !important;
-        color: white;
         margin-top: 2rem;
         cursor: pointer;
-        padding: 10px 30px;
-        border-radius: 5px;
         font-weight: 500;
-        display: inline-block; }
+        padding: 1.25rem 1.5rem;
+        display: inline-block;
+    }
   }
   
   /* Opera < 12.1 */
   @-o-keyframes modalFadeOut {
-    to { background-color: rgba(255, 255, 255, 0.15) !important;
+    to { 
+        background-color: rgba(255, 255, 255, 0.15) !important;
         border-color:rgba(255, 255, 255, 0.35) !important;
         margin-top: 2rem;
         cursor: pointer;
-        padding: 10px 30px;
-        border-radius: 5px;
         font-weight: 500;
-        display: inline-block; }
-    from   { background-color: #C71C4F !important;
+        padding: 1.25rem 1.5rem;
+        display: inline-block;
+     }
+    from   { 
+        background-color: #C71C4F !important;
         border-color:#C71C4F !important;
-        color: white;
         margin-top: 2rem;
         cursor: pointer;
-        padding: 10px 30px;
-        border-radius: 5px;
         font-weight: 500;
-        display: inline-block; }
+        padding: 1.25rem 1.5rem;
+        display: inline-block;
+    }
   }

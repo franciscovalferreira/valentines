@@ -21,14 +21,14 @@ class Cards extends React.Component {
     return <Container>
     <Row>
       <Col>
-        <h2 style={{
-          fontWeight:"800",
-          marginTop:"125px"
+        <h2 className=".App-title" style={{
+          fontWeight:'bold'
         }}>
             É este ano, desta não passa!
         </h2>
         <p style={{
-          fontWeight:"600"
+          fontWeight:"500",
+          fontSize:"1.25rem"
         }}>Escolhe uma carta e vê o que a sorte te reserva!</p>
         <br></br>
         <br></br>

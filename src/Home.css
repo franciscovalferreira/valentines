@@ -17,6 +17,10 @@
             animation: modalFadeOut 0.5s;
 }
 
+.Home-modal{
+    min-width: 70vw !important;
+}
+
 /******** MOBILE ********/
 
 @media only screen and (max-width: 768px) {

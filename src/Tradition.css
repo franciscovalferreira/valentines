@@ -46,6 +46,29 @@
     padding: 1rem 2rem;
     font-weight: 600;
     color: #C71C4F;
+
+    -webkit-animation: offHoverFadet 0.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: offHoverFadet 0.5s; /* Firefox < 16 */
+        -ms-animation: offHoverFadet 0.5s; /* Internet Explorer */
+         -o-animation: offHoverFadet 0.5s; /* Opera < 12.1 */
+            animation: offHoverFadet 0.5s;
+}
+
+.Tradition-repeat-button:hover{
+    border-radius: 100rem;
+    margin: 1rem 1rem;
+    border: 3px solid #C71C4F;
+    background-color: #C71C4F;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    color: white;
+
+    -webkit-animation: onHoverFade 0.5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: onHoverFade 0.5s; /* Firefox < 16 */
+     -ms-animation: onHoverFade 0.5s; /* Internet Explorer */
+      -o-animation: onHoverFade 0.5s; /* Opera < 12.1 */
+         animation: onHoverFade 0.5s;
 }
 
 @media only screen and (max-width: 768px) {
@@ -73,5 +96,245 @@
     .Tradition-repeat-button{
         font-size: 1rem;
         padding: 0.8rem 1.6rem;
+    }
+}
+
+
+@keyframes onHoverFade {
+    from {     
+        border-radius: 100rem;
+        margin: 1rem 1rem;
+        border: 3px solid #C71C4F;
+        background-color: transparent;
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        font-weight: 600;
+        color: #C71C4F; 
+    }
+    to   {
+        border-radius: 100rem;
+        margin: 1rem 1rem;
+        border: 3px solid #C71C4F;
+        background-color: #C71C4F;
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        font-weight: 600;
+        color: white;
+    }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes onHoverFade {
+    from {     
+        border-radius: 100rem;
+        margin: 1rem 1rem;
+        border: 3px solid #C71C4F;
+        background-color: transparent;
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        font-weight: 600;
+        color: #C71C4F; 
+    }
+    to   {
+        border-radius: 100rem;
+        margin: 1rem 1rem;
+        border: 3px solid #C71C4F;
+        background-color: #C71C4F;
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        font-weight: 600;
+        color: white;
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes onHoverFade {
+    from {     
+        border-radius: 100rem;
+        margin: 1rem 1rem;
+        border: 3px solid #C71C4F;
+        background-color: transparent;
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        font-weight: 600;
+        color: #C71C4F; 
+    }
+    to   {
+        border-radius: 100rem;
+        margin: 1rem 1rem;
+        border: 3px solid #C71C4F;
+        background-color: #C71C4F;
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        font-weight: 600;
+        color: white;
+    }
+}
+
+/* Internet Explorer */
+@-ms-keyframes onHoverFade {
+    from {     
+        border-radius: 100rem;
+        margin: 1rem 1rem;
+        border: 3px solid #C71C4F;
+        background-color: transparent;
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        font-weight: 600;
+        color: #C71C4F; 
+    }
+    to   {
+        border-radius: 100rem;
+        margin: 1rem 1rem;
+        border: 3px solid #C71C4F;
+        background-color: #C71C4F;
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        font-weight: 600;
+        color: white;
+    }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes onHoverFade {
+    from {     
+        border-radius: 100rem;
+        margin: 1rem 1rem;
+        border: 3px solid #C71C4F;
+        background-color: transparent;
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        font-weight: 600;
+        color: #C71C4F; 
+    }
+    to   {
+        border-radius: 100rem;
+        margin: 1rem 1rem;
+        border: 3px solid #C71C4F;
+        background-color: #C71C4F;
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        font-weight: 600;
+        color: white;
+    }
+}
+
+/************ FADE OUT ************/
+@keyframes offHoverFadet {
+    to {     
+        border-radius: 100rem;
+        margin: 1rem 1rem;
+        border: 3px solid #C71C4F;
+        background-color: transparent;
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        font-weight: 600;
+        color: #C71C4F; 
+    }
+    from   {
+        border-radius: 100rem;
+        margin: 1rem 1rem;
+        border: 3px solid #C71C4F;
+        background-color: #C71C4F;
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        font-weight: 600;
+        color: white;
+    }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes offHoverFadet {
+    to {     
+        border-radius: 100rem;
+        margin: 1rem 1rem;
+        border: 3px solid #C71C4F;
+        background-color: transparent;
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        font-weight: 600;
+        color: #C71C4F; 
+    }
+    from   {
+        border-radius: 100rem;
+        margin: 1rem 1rem;
+        border: 3px solid #C71C4F;
+        background-color: #C71C4F;
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        font-weight: 600;
+        color: white;
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes offHoverFadet {
+    to {     
+        border-radius: 100rem;
+        margin: 1rem 1rem;
+        border: 3px solid #C71C4F;
+        background-color: transparent;
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        font-weight: 600;
+        color: #C71C4F; 
+    }
+    from   {
+        border-radius: 100rem;
+        margin: 1rem 1rem;
+        border: 3px solid #C71C4F;
+        background-color: #C71C4F;
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        font-weight: 600;
+        color: white;
+    }
+}
+
+/* Internet Explorer */
+@-ms-keyframes offHoverFadet {
+    to {     
+        border-radius: 100rem;
+        margin: 1rem 1rem;
+        border: 3px solid #C71C4F;
+        background-color: transparent;
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        font-weight: 600;
+        color: #C71C4F; 
+    }
+    from   {
+        border-radius: 100rem;
+        margin: 1rem 1rem;
+        border: 3px solid #C71C4F;
+        background-color: #C71C4F;
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        font-weight: 600;
+        color: white;
+    }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes offHoverFadet {
+    to {     
+        border-radius: 100rem;
+        margin: 1rem 1rem;
+        border: 3px solid #C71C4F;
+        background-color: transparent;
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        font-weight: 600;
+        color: #C71C4F; 
+    }
+    from   {
+        border-radius: 100rem;
+        margin: 1rem 1rem;
+        border: 3px solid #C71C4F;
+        background-color: #C71C4F;
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        font-weight: 600;
+        color: white;
     }
 }

@@ -9,9 +9,15 @@
   font-family: Poppins;
   min-height: 100vh;
 }
+@media only screen and (max-height: 600px) {
+  .App {
+    min-height: 110vh;
+  }
+}
 
 .App-logo {
   height: 75px;
+  margin-bottom: 1rem;
 }
 
 .App-title{

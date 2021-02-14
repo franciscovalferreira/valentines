@@ -30,8 +30,8 @@
     border-radius: 10px;
 }
 
-  .Card-body:hover {
-    transform: translate(0, -5px);
-    cursor: pointer;
-    box-shadow: 0px 15px 20px rgba(150, 50, 85, 0.05);
-  }
+.Card-body:hover {
+  transform: translate(0, -5px);
+  cursor: pointer;
+  box-shadow: 0px 15px 20px rgba(150, 50, 85, 0.05);
+}

@@ -96,6 +96,20 @@
     .Tradition-repeat-button{
         font-size: 1rem;
         padding: 0.8rem 1.6rem;
+        -webkit-animation: ignore 0.5s; /* Safari, Chrome and Opera > 12.1 */
+            -moz-animation: ignore 0.5s; /* Firefox < 16 */
+                -ms-animation: ignore 0.5s; /* Internet Explorer */
+                -o-animation: ignore 0.5s; /* Opera < 12.1 */
+                    animation: ignore 0.5s;
+    }
+    .Tradition-repeat-button:hover{
+        font-size: 1rem;
+        padding: 0.8rem 1.6rem;
+        -webkit-animation: ignore 0.5s; /* Safari, Chrome and Opera > 12.1 */
+            -moz-animation: ignore 0.5s; /* Firefox < 16 */
+                -ms-animation: ignore 0.5s; /* Internet Explorer */
+                -o-animation: ignore 0.5s; /* Opera < 12.1 */
+                    animation: ignore 0.5s;
     }
 }
 
